@@ -4,4 +4,4 @@ function printVowels(str){
     var vowels = str.match(reg); 
     return 'Vowels: ' + vowels
 }
-
+printVowels('vowels');

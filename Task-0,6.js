@@ -8,4 +8,4 @@ function maxNumber(a, b, c){
     }
     
 }
-
+maxNumber(4, 7, 6)

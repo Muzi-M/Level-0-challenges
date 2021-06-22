@@ -5,3 +5,4 @@ function evenOrOdd(int){
         return 'odd'
     }
 }
+evenOrOdd(3)

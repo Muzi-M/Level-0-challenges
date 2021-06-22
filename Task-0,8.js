@@ -25,3 +25,4 @@ function convertToTime(int){
         return 0 + ' hours, ' + 0 + ' minutes ';
     }
 }
+convertToTime(130);
