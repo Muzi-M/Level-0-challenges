@@ -12,8 +12,8 @@ function commonChars(str1, str2) {
       }
     }
     
-    dict = commonLettrs.join("");
+    dict = commonLettrs.join(",");
     console.log('Common letters: ' + dict);
   }
   
-  commonChars('this string', 'that strong');
+  commonChars('string', 'strong');
