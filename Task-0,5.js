@@ -1,4 +1,4 @@
-function areaOfATriangle(a, b, c){
-    return (a + b + c) * 0.5
+function areaOfATriangle(b, h, l){
+    return 0.5 * (b*h) 
 }
 areaOfATriangle(3, 4, 5)

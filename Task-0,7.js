@@ -1,9 +1,13 @@
 function celsiusToFahrenheit(float){
-    return (float * 9/5) + 32
+     fahrenheit = (float * 9/5) + 32
+     console.log(fahrenheit)
 }
 
 function fahrenheitToCelsius(float){
-    return (float - 32) / (9/5)
+    celsius = (float - 32) / (9/5)
+    console.log(celsius)
 }
-celsiusToFahrenheitToCelsius(35)
+celsiusToFahrenheit(43.33)
 fahrenheitToCelsius(110)
+
+
