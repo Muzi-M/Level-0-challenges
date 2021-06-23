@@ -1,6 +1,6 @@
 function printVowels(str){ 
     var reg = /[aeiou]/ig;  
     var vowels = str.match(reg); 
-    return 'Vowels: ' + vowels
+    console.log('Vowels: ' + vowels)
 }
 printVowels('vowels');
