@@ -11,8 +11,14 @@ function commonChars(str1, str2) {
         commonLettrs.push(str2.charAt(i)); 
       }
     }
-    
-    dict = commonLettrs.join(",");
+    var noRepeatLttrs = [];
+    for (var i = 0; i < commonLettrs.length; i++){
+      var a = commonLettrs[i]
+      if (commonLettrs.indexOf(a) == i){
+        noRepeatLttrs.push(a)
+      }
+    }
+    dict = noRepeatLttrs.join(",");
     console.log('Common letters: ' + dict);
   }
   
