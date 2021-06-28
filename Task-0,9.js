@@ -1,6 +1,7 @@
 function printVowels(str){ 
+    var strCase = str.toLowerCase();
     var reg = /[aeiou]/ig;  
-    var vowels = str.match(reg);
+    var vowels = strCase.match(reg);
     noRepeatVowels = []
     for (var i = 0; i < vowels.length; i++){
         var a = vowels[i];
@@ -9,5 +10,4 @@ function printVowels(str){
         } 
     }console.log("Vowels: " + noRepeatVowels) 
 }
-printVowels('basically');
-
+printVowels('basicAlly');

@@ -1,14 +1,9 @@
-function celsiusToFahrenheit(celsiusInput){
-     fahrenheit = (celsiusInput * 9/5) + 32
+function celsiusToFahrenheits(temp){
+    var fahrenheits = (temp * 9/5) + 32;
+    return fahrenheits + '°F';
 }
-function fahrenheitToCelsius(_fahrenheitInput){
-        celsius = (_fahrenheitInput - 32) / (9/5)
-    return `${fahrenheit}°F. ${celsius}°C`;
+function fahrenheitsToCelsius(temp){
+    var celsius = (temp - 32) * 5/9;
+    return celsius + '°C';
 }
-
-celsiusToFahrenheit(43.33)
-fahrenheitToCelsius(120)
-
-
-
-
+fahrenheitsToCelsius(95)
