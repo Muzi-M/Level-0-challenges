@@ -1,7 +1,7 @@
 function areaOfATriangle(a, b, c){
-    var semiPer = 0.5 * (a + b + c);
-    var root = semiPer*(semiPer-a)*(semiPer-b)*(semiPer-c)
-    var area = Math.sqrt(root);
+    let semiPerimeter = 0.5 * (a + b + c);
+    let root = semiPer*(semiPerimeter-a)*(semiPerimeter-b)*(semiPerimeter-c)
+    let area = Math.sqrt(root);
     return area; 
 }
-areaOfATriangle(3, 6, 7)
+areaOfATriangle(3, 5, 6)

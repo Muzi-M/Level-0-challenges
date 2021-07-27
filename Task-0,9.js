@@ -1,10 +1,10 @@
 function printVowels(str){ 
-    var strCase = str.toLowerCase();
-    var reg = /[aeiou]/ig;  
-    var vowels = strCase.match(reg);
+    let strCase = str.toLowerCase();
+    let reg = /[aeiou]/ig;  
+    let vowels = strCase.match(reg);
     noRepeatVowels = []
-    for (var i = 0; i < vowels.length; i++){
-        var a = vowels[i];
+    for (let i = 0; i < vowels.length; i++){
+        let a = vowels[i];
         if (vowels.indexOf(a) == i ){
             noRepeatVowels.push(a)
         } 
