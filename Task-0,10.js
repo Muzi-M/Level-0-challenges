@@ -13,9 +13,9 @@ function commonChars(str1, str2) {
     }
     let noRepeatLttrs = [];
     for (let i = 0; i < commonLettrs.length; i++){
-      let a = commonLettrs[i]
+      let a = commonLettrs[i];
       if (commonLettrs.indexOf(a) == i){
-        noRepeatLttrs.push(a)
+        noRepeatLttrs.push(a);
       }
     }
     dict = noRepeatLttrs.join(",");

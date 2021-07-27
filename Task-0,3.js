@@ -1,4 +1,4 @@
 function hello(str){
-    console.log('Hello ' + str + '!')
+    console.log('Hello ' + str + '!');
 }
-hello('Muzi')
+hello('Muzi');

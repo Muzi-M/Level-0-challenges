@@ -6,5 +6,4 @@ function fahrenheitsToCelsius(temp){
     let celsius = (temp - 32) * 5/9;
     return celsius + '°C';
 }
-fahrenheitsToCelsius(95)
-celsiusToFahrenheits(35)
+fahrenheitsToCelsius(95);
