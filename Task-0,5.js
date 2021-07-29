@@ -1,6 +1,6 @@
-function areaOfATriangle(a, b, c){
-    let semiPerimeter = 0.5 * (a + b + c);
-    let root = semiPerimeter*(semiPerimeter-a)*(semiPerimeter-b)*(semiPerimeter-c);
+function areaOfATriangle(sideA, sideB, sideC){
+    let semiPerimeter = 0.5 * (sideA + sideB + sideC);
+    let root = semiPerimeter*(semiPerimeter-sideA)*(semiPerimeter-sideB)*(semiPerimeter-sideC);
     let area = Math.sqrt(root);
     return area; 
 }

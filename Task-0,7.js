@@ -1,9 +1,9 @@
-function celsiusToFahrenheits(temp){
-    let fahrenheits = (temp * 9/5) + 32;
+function celsiusToFahrenheits(temperature){
+    let fahrenheits = (temperature * 9/5) + 32;
     return fahrenheits + '°F';
 }
-function fahrenheitsToCelsius(temp){
-    let celsius = (temp - 32) * 5/9;
+function fahrenheitsToCelsius(temperature){
+    let celsius = (temperature - 32) * 5/9;
     return celsius + '°C';
 }
 fahrenheitsToCelsius(95);

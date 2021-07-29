@@ -1,10 +1,10 @@
-function maxNumber(a, b, c){
-    if (a - b > 0 && a - c > 0){
-        return a;
-    }else if (b - a > 0 && b - c > 0){
-        return b;
+function maxNumber(firstInt, secondInt, thirdInt){
+    if (firstInt - secondInt > 0 && firstInt - thirdInt > 0){
+        return firstInt;
+    }else if (secondInt - firstInt > 0 && secondInt - thirdInt > 0){
+        return secondInt;
     } else {
-        return c;
+        return thirdInt;
     }
     
 }
